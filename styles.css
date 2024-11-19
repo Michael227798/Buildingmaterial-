@@ -1,0 +1,96 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1{
+  background: red;
+  color: #f6f8f7;
+  }
+  
+  body {
+    background:  red;
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  header {
+    background: #f87c16;
+    color: #f6f8f7;
+    text-align: center;
+    padding: 2em;
+  }
+  
+  header .logo img {
+    max-width: 100px;
+    margin-bottom: 50px;
+  }
+  
+  .div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    padding: 50px;
+    justify-content: center;
+    margin-top: 45px;
+  }
+  
+  .section {
+    display: grid;
+    background: #617e8f;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 1em;
+    max-width: 300px;
+    text-align: center;
+    flex: 1 1 45%;
+  }
+  
+  .section img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .section h2 {
+    font-size: 1.5em;
+    color: #003366;
+    margin: 0.5em 0;
+  }
+  
+  .section p {
+    color: #666;
+  }
+  
+  .button {
+    display: inline-block;
+    background: #003366;
+    color: #fff;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s;
+  }
+  
+  .button:hover {
+    background: #005599;
+  }
+  
+  footer {
+    background: #003366;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+    margin-top: 2em;
+  }
+  
+  @media (max-width: 768px) {
+    .content, .additional-content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  

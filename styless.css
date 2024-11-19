@@ -1,0 +1,28 @@
+*{
+    margin: 0px;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 0.1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 30px
+}
+div img:hover {
+    filter: grayscale(0.1);
+    transform: scale(1.03);
+
+}
+
+div img{
+    border: 10px solid rgb(153, 235, 238);
+    box-shadow: 4px 7px 0px rgb(185, 123, 147);
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+
+}
